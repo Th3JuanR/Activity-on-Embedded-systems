@@ -65,6 +65,10 @@ int main(void)
 	  {
 		  seq2();
 		  counting = 0;
+		  if(pulsador0)
+		  {
+			  couting=0;
+		  }
 	  }
   }
   return 0;
